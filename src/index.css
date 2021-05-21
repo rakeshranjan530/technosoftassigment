@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  width: 500px;
+  height: auto;
+  margin: auto;
+  margin-top: 120px;
+  background: aqua;
+  box-shadow: 0px 0px 5px cornflowerblue;
+}
+.form{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.form_button{
+  background-color: limegreen;
+  margin-left: 15px;
+  width: 75px;
+  color: white;
+  border-radius: 8px;
+  border-color: lime;
+  cursor: pointer;
+}
+.form_input{
+  padding: 7px;
+  width: 250px;
+  border-radius: 6px;
+  border-color: lightgrey;
+}
